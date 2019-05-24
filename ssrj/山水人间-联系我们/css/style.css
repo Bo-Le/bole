@@ -1,0 +1,226 @@
+@charset "utf-8";
+/*头部*/
+.header{
+	height: 80px;
+}
+.logo{
+	float: left;
+}
+.logo img{
+	width: 80px;
+	height: 57px;
+  margin-top: 10px;
+}
+.sousuo{
+	float: left;
+	margin-left: 500px;
+}
+.input{
+	border: 1px solid #ccc;
+	padding:3px;
+	font-size: 14px;
+	margin-top: 30px;
+}
+.sousuo img{
+	width: 17px;
+	height: 17px;
+	padding: 2px;
+	vertical-align: middle;
+	border: 1px solid #ccc;
+}
+.phon{
+	margin-right: 50px;
+	margin-left: 700px;
+}
+.phon_ img{
+	width: 50px;
+	height: 50px;
+	float: left;
+}
+.phon span{
+	float: left;
+}
+.phon_{
+	padding-top: 20px;
+}
+.phon_s1{
+	font-size: 14px;
+}
+.phon_s2{
+	font-size: 18px;
+	color: #332D9D;
+}
+
+
+
+
+/*导航*/
+.nav{
+	width: 100%;
+	height: 36px;
+	background: #01016C;
+}
+.nav_{
+	height: 36px;
+}
+.nav_ li{
+	float: left;
+	font-size: 18px;
+	line-height: 36px;
+}
+.nav_ li a{
+	color: #fff;
+}
+.nav_ li span{
+	color: #fff;
+	margin: 0 10px;
+}
+.inlogo img{
+	width: 32px;
+	height: 25px;
+}
+.nav_ .active{
+	color: #70BFEA;
+}
+/*banner图*/
+.banner{
+	width: 100%;
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.banner img{
+		width: 100%;
+		height: 600px;
+		overflow: hidden;
+	}
+.banner ul{
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+.banner ul li{
+	float: left;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+
+
+
+
+/*
+c部分
+ */
+.gw{
+ 	width: 1240px;
+ 	margin: 0 auto;
+ }
+ .c{
+ 	width: 100%;
+ 	margin-top: 60px;margin-bottom: 60px;
+ }
+ .c .left ,.c .right{
+ 	width: 50%;
+ 	float: left;
+ 	color: #333333;
+ }
+ .c .top{
+ 	height: 67px;
+ 	margin-bottom: 20px;
+ }
+ .c .left .p1{
+ 	background: url(../imanges/c1.jpg) no-repeat left top;
+ 	padding-left: 119px;
+ 	height: 100%;
+ 	width: 49%;
+ 	float: left;
+ }
+ .c .left .p2{
+ 	background: 
+ 	width: 50%;
+ 	float: right;
+ }
+ .c .left .p2 a{
+ 	display: block;
+ 	margin-top: 10px;
+ 	color: black;
+ }
+ .c .top span{
+ 	font-size: 25px;
+ }
+ .c .left ul{
+ 	width: 100%;
+ 	padding-left: 119px;
+ }
+ .c .left ul li{
+ 	padding-left: 10px;
+ 	font-size: 14px;
+ 	background: url(../imanges/c3.jpg) no-repeat left center;
+ 	list-style: none;
+ 	height: 30px;
+ 	line-height: 30px;
+ }
+ .c .right .top{
+ 	padding-left: 50px;
+ 	background: url(../imanges/c2.jpg) no-repeat 10px 10px;
+ }
+ .c .right .bottom{
+
+ }
+ .c .right input{
+ 	padding-left: 10px;
+ 	margin-bottom: 20px;
+ 	width: 564px;
+ }
+ .c .right textarea{
+ 	width: 564px;
+ 	overflow: hidden;
+ 	resize:none;
+ }
+ .c .right .in{
+ 	padding-left: 0;
+ 	width: 25%;
+ 	margin: 0 10%;
+ 	background: #01016C;
+ 	border: #01016C;
+ }
+  .c .right .on{
+  	padding-left: 0;
+ 	width: 25%;
+ 	margin-left: 10%;
+ 	background: #01016C;
+ 	border: #01016C;
+ }
+
+/*底部*/
+.footer{
+
+	width: 100%;
+	height: 320px;
+	background: #01016C;
+}
+.footer ul li{
+	float: left;
+}
+.footer_top{
+	margin-top: 86px;
+}
+.footer_top li{
+	margin-right: 32px;
+	
+}
+.footer_top a{
+	color: #fff;
+	font-size: 18px;
+}
+.footer p{
+	color: #fff;
+	font-size: 18px;
+	line-height: 34px;
+}
+.links a{
+	font-size: 18px;
+	color: #fff;
+}

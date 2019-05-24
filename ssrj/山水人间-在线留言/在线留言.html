@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>在线留言</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+	<!-- 头部 -->
+	<div class="header ">
+		<div class=" gWidth">
+		<div class="logo ">
+			<img src="images/logo.jpg">
+		</div>
+		<div class="soph">
+			<div class="sousuo">
+				<input type="" value="请输入关键字！" class="input"><img src="images/搜索图标.jpg">
+			</div>
+			<div class="phon">
+				<p class="phon_">
+				 <img src="images/电话标志.jpg">
+				 <span class="phon_s1">全国服务热线：</span><br>
+				 <span class="phon_s2">+86-666-6666</span>
+				</p>
+			</div>
+			</div>
+		</div>
+	</div>
+	<!-- 导航 -->
+	<div class="nav ">
+		<ul class="nav_ gWidth">
+			<li><a href="../山水人间-主页/index.html"  class="active">网站首页</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-公司简介/公司简介.html">公司简介</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-住宿环境/住宿环境.html">住宿环境</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-特色美食/特色美食.html">特色美食</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-娱乐项目/娱乐项目.html">娱乐项目</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-旅游资讯/旅游资讯.html">旅游资讯</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-周边景点/周边景点.html">周边景点</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-在线留言/在线留言.html">在线留言</a></li>
+			<li><span>|</span></li>
+			<li><a href="../山水人间-联系我们/联系我们.html">联系我们</a></li>
+		</ul>
+	</div>
+	<!-- banner图 -->
+	 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+	<script src="bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+	<div class="banner  clearfix">
+		<div id="myCarousel" class="carousel slide"> <ol class="carousel-indicators">
+
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+
+<li data-target="#myCarousel" data-slide-to="1"></li> 
+
+</ol>
+
+<div class="carousel-inner"> <div class="item active">
+<img src="images/banner1.jpg" alt="第一张"> </div>
+
+<div class="item">
+
+<img src="images/banner2.jpg" alt="第二张"> </div>
+
+
+</div>
+
+<a href="#myCarousel" data-slide="prev" class="carousel-control left">&lsaquo;</a>
+
+<a href="#myCarousel" data-slide="next" class="carousel-control right">&rsaquo;</a>
+<script>
+$('#myCarousel').carousel({
+
+//设置自动播放/2 秒
+
+interval : 2000,
+
+//设置暂停按钮的事件
+
+pause : 'hover',
+
+//只播一次
+
+wrap : true,
+
+
+});
+
+</script>
+</div>
+</div>
+
+
+			<!-- 内容 -->
+			<div class="con1 gWidth">
+							<div class="c1t">
+									<img src="images/fang.jpg">
+									<p>公司简介<br><span>company profile</span></p>
+									<i></i>
+							</div>
+							<div class="c1c clearfix">
+											<div class="fl">
+															<ul class="u1">
+																<li><a href="#">674套餐</a></li>
+																<li><a href="#">23/人套餐</a></li>
+																<li><a href="#">332套餐</a></li>
+																<li><a href="#">343套餐</a></li>
+																<li><a href="#">12套餐</a></li>
+																<li><a href="#">13套餐</a></li>
+																<li><a href="#">12套餐</a></li>
+															</ul>
+															<h5>最新资讯&nbsp;&nbsp;NEWS</h5>
+															<ul class="u2">
+																	<li>野三坡百草畔，野山坡农家院景区升级改造</li>
+																	<li>野三坡百草畔，野山坡农家院景区升级改造</li>
+																	<li>野三坡百草畔，野山坡农家院景区升级改造</li>
+																	<li>野三坡百草畔，野山坡农家院景区升级改造</li>
+																	<li>野三坡百草畔，野山坡农家院景区升级改造</li>
+															</ul>
+															<h5 class="h52">联系我们&nbsp;&nbsp;CONTACT</h5>
+															<p class="p1">+86-56956-1566</p>
+															<p>地址：河北省保定市涞源县野三坡山水人间农家乐</p>
+															<p>手机：13012030339(微信)</p>
+											</div>
+											<div class="fr">
+														
+				<h4>在线留言</h4>
+
+				<form class="bd">
+					<p>姓名：
+					  	<label for="textfield"></label>
+						<input type="text" name="textfield" id="textfield">
+					</p>
+
+					<p>城市地区：
+						<select id="province">
+				        <option value="-1">请选择</option>
+					     </select>
+					     <select id="city"></select>
+					     <select id="country"></select>
+					</p>
+					<p>电话：
+					  <label for="textfield2"></label>
+					  <input type="text" name="textfield2" id="textfield2">
+					</p>
+					<p>邮箱：
+					  <label for="textfield3"></label>
+					  <input type="text" name="textfield3" id="textfield3">
+					</p>
+					<p class="liuyan">留言内容：
+						<textarea >请在此处输入你的留言</textarea>
+					</p>
+					<p class="botton">
+					  <input type="submit" name="button" id="button" value="提交">
+					  <input type="submit" name="button2" id="button2" value="重置">
+					</p>
+
+			    </form>
+			</div>
+		</div>
+	</div>
+
+	<!-- 底部 -->
+	<div class="footer clearfix">
+		<div class="footer_ gWidth">
+		<ul class="footer_top clearfix">
+			<li><a href="">网站首页</a></li>
+			<li><a href="">公司简介</a></li>
+			<li><a href="">住宿环境</a></li>
+			<li><a href="">特色美食</a></li>
+			<li><a href="">娱乐项目</a></li>
+			<li><a href="">旅游资讯</a></li>
+			<li><a href="">周边景点</a></li>
+			<li><a href="">在线留言</a></li>
+			<li><a href="">联系我们</a></li>
+		</ul>
+		<p class="footer_p1">免责声明：涞源网只作为野三坡农家院网络信息承载平台 ，不对用户构成任何建议 ，不参与任何交易 ，信息的真实性由发布者负
+                完全责任</p>
+		<p>电信增值业务经营许可证 ：冀J1-45451236  ICP备案号 ：冀ICP备12453682号  客服热线：+86-56956-1566</p>
+		<p>网站运营 ：天津小屋信息科技有限公司  地址：野三坡 山水人间农家院</p>
+		<p class="links">友情链接 ：<a href="">百度</a> <a href="">阳光农家院</a> <a href="">微博</a></p>
+		</div>
+	</div>
+	<script>
+      // 省份数组
+      var provinceArr = ['上海', '江苏', '河北'];
+      // 城市数组
+      var cityArr = [
+        ['上海市'],
+        ['苏州市', '南京市', '扬州市'],
+        ['石家庄', '秦皇岛', '张家口']
+       ];
+      // 区域数组
+      var countryArr = [
+        [
+          ['黄浦区', '静安区', '长宁区', '浦东区']
+        ], [
+          ['虎丘区', '吴中区', '相城区', '姑苏区', '吴江区'],
+          ['玄武区', '秦淮区', '建邺区', '鼓楼区', '浦口区'],
+          ['邗江区', '广陵区', '江都区']
+        ], [
+          ['长安区', '桥西区', '新华区', '井陉矿区'],
+          ['海港区', '山海关区', '北戴河区', '抚宁区'],
+          ['桥东区', '桥西区', '宣化区', '下花园区']
+        ]
+      ];
+      function createOption(obj, data) {
+        for (var i in data) {
+          var op = new Option(data[i], i);   // 创建下拉列表中的option选项
+          obj.options.add(op);               // 将选项添加到下拉列表中
+        }
+      }
+      var province = document.getElementById('province');
+      createOption(province, provinceArr);
+      var city = document.getElementById('city');
+      province.onchange = function() {
+        city.options.length = 0;        // 清空city下的原有<option>
+        createOption(city, cityArr[province.value]);
+        if (province.value >= 0) {
+          city.onchange();              // 自动添加 城市对应区域 下拉列表  
+        } else {
+          country.options.length = 0;   // 清空country下的原有<option>
+        }
+      };
+      var country = document.getElementById('country');
+      city.onchange = function() {
+        country.options.length = 0;     // 清空country下的所有原有<option>
+        createOption(country, countryArr[province.value][city.value]);
+      };
+    </script>
+</body>
+</html>
